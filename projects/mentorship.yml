@@ -1,0 +1,26 @@
+name: "🎓 HelloIT Mentorship Tracker"
+description: "Track progress for mentorship: goals, resume, job search, and skill refresh."
+public: false
+# Adjust this to true if you want it public by default
+
+# Template layout for board creation
+columns:
+  - name: 🎯 Goals
+    description: Big-picture focus areas (resume, learning, job hunt)
+  - name: 🛠 In Progress
+    description: Tasks actively being worked on
+  - name: 📥 To Review
+    description: Waiting for feedback or check-in
+  - name: ✅ Done
+    description: Completed wins (small or big)
+  - name: ❗Blocked
+    description: Anything that’s stuck or unclear
+
+# Optional starter items
+draft_issues:
+  - title: "Update resume with recent experience"
+    body: "Refactor your resume to include recent projects, skills, and metrics."
+    status: 🎯 Goals
+  - title: "Review AWS basics: IAM + Lambda"
+    body: "Targeted AWS refresh session focused on your past use cases and new trends."
+    status: 🛠 In Progress

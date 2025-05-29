@@ -1,0 +1,49 @@
+name: "🚀 Mentorship Session Prep"
+description: "Kick off a mentorship track with context, direction, and blockers."
+title: "🧭 Session Prep – Let’s Get a Feel for Direction"
+labels: ["mentorship", "session-prep"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for joining HelloIT Mentorship 👋  
+        Let’s shape this session around what matters to *you*. No pressure — just fill in what you can.
+  - type: input
+    id: direction
+    attributes:
+      label: 💼 Career Direction
+      description: Staying in the same space (e.g., APIs, AWS), or considering a new path?
+      placeholder: "e.g., Thinking of trying cloud security next"
+  - type: input
+    id: work_style
+    attributes:
+      label: 🕰️ Work Style
+      description: What kind of role are you looking for?
+      placeholder: "e.g., Full-time remote, part-time contract, flexible hours"
+  - type: textarea
+    id: resume
+    attributes:
+      label: 📄 Resume Status
+      description: Do you already have a resume we can edit?
+      placeholder: "e.g., I’ve got a 2023 version in PDF, but it needs updates"
+  - type: input
+    id: tech_refresh
+    attributes:
+      label: ☁️ AWS/API Refresh
+      description: Any topics you'd like to revisit or learn?
+      placeholder: "e.g., IAM roles, Lambda setup, Terraform basics"
+  - type: textarea
+    id: blockers
+    attributes:
+      label: 🚧 Any Blockers?
+      description: Anything in the way right now — motivation, clarity, imposter syndrome, etc.?
+      placeholder: "e.g., Been feeling overwhelmed and unsure where to start"
+  - type: dropdown
+    id: tracking
+    attributes:
+      label: 📌 GitHub Project Tracking?
+      description: Would you like to use a board to track progress?
+      options:
+        - Yes, structure helps
+        - Maybe, not sure yet
+        - No thanks
